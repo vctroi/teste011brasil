@@ -33,7 +33,10 @@ export default function Home() {
     let arrayOutros = [];
 
     try {
-      const response = await axios.get("http://localhost:3000/api/data");
+      const response = await axios.get(
+        "https://teste11brasil-6gtwcgas0-vctroi.vercel.app/api/data"
+      );
+      // const response = await axios.get("http://localhost:3000/api/data");
       const res = response.data;
 
       res.pessoas.forEach((each) => {
