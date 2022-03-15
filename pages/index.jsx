@@ -34,7 +34,7 @@ export default function Home() {
 
     try {
       const response = await axios.get(
-        "https://teste11brasil-6gtwcgas0-vctroi.vercel.app/api/data"
+        "https://teste11brasil-vctroi.vercel.app/api/data"
       );
       // const response = await axios.get("http://localhost:3000/api/data");
       const res = response.data;
